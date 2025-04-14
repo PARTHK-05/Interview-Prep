@@ -9,6 +9,9 @@ function Header() {
                     InterviewPrep
                 </Link>
                 <nav className="hidden md:flex space-x-4">
+                    <Link to="/Mock" className="text-gray-600 hover:text-blue-600"> {/* Link to profile */}
+                        Mock
+                    </Link>
                     <a href="#features" className="text-gray-600 hover:text-blue-600">
                         Features
                     </a>
@@ -18,6 +21,7 @@ function Header() {
                     <Link to="/profile" className="text-gray-600 hover:text-blue-600"> {/* Link to profile */}
                         Account
                     </Link>
+
                 </nav>
                 <button className="md:hidden">
                     <Menu className="h-6 w-6 text-gray-600" />

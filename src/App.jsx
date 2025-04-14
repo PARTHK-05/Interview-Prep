@@ -7,6 +7,9 @@ import Features from "./components/Features";
 import TestimonialSection from "./components/TestimonialSection";
 import Footer from "./components/Footer";
 import Profile from "./components/Profile";
+import Mock from "./components/Mock";
+
+
 
 function App() {
   return (
@@ -17,6 +20,7 @@ function App() {
           <Route path="/" element={<Hero />} />
           <Route path="/FileUploader" element={<FileUploader />} />
           <Route path="/Profile" element={<Profile />} /> 
+          <Route path="/Mock" element={<Mock />} /> 
         </Routes>
         <Features />
         <TestimonialSection />
